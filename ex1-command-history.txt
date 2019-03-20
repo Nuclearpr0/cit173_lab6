@@ -1,0 +1,996 @@
+    1  cd cit173_lab4/
+    2  ls
+    3  less my-nfs-info.txt 
+    4  exit
+    5  ls
+    6  cd cit173_lab4/
+    7  ls
+    8  cat my-dev-nodes.txt > /dev/full
+    9  nano 4_readme
+   10  which vi
+   11  vi 4_readme
+   12  clear
+   13  mv 4_readme 4_readme_error
+   14  cd /proc
+   15  ls
+   16  ls mo
+   17  ls modules
+   18  cd /lib/modules
+   19  ls
+   20  cd 4.18.16-300.fc29.x86_64/
+   21  ls
+   22  cd kernel/
+   23  ls
+   24  find . | grep nfs
+   25  ls
+   26  cd fs
+   27  ls
+   28  cd nfs
+   29  ls
+   30  cd
+   31  cd /lib/modules/4.18.16-300.fc29.x86_64/kernel/drivers/c
+   32  cd /lib/modules/4.18.16-300.fc29.x86_64/kernel/drivers
+   33  ls
+   34  cd nfs
+   35  clear
+   36  ls
+   37  ifconfig
+   38  ifocnfig
+   39  ifconfig
+   40  which ssh
+   41  sudo service sshd start
+   42  xit
+   43  eixt
+   44  exit
+   45  groups
+   46  clear
+   47  mkdir cit173_lab4
+   48  which tmux
+   49  tmux new -s fucker
+   50  exit
+   51  ls
+   52  ssh pi@192.168.1.11
+   53  exit
+   54  ssh pi@192.168.1.11
+   55  clear
+   56  exit
+   57  xit
+   58  exit
+   59  ls
+   60  c cit173_lab4/
+   61  cd cit173_lab4/
+   62  clear
+   63  ls
+   64  exit
+   65  sudo fdisk -l /dev/sdb
+   66  exit
+   67  sudo fdisk -l /dev/sdb
+   68  exit
+   69  lear
+   70  clear
+   71  lsblk -o name,type,fstype,labels,size,model,mountpoint
+   72  lsblk
+   73  lsblk =f
+   74  lsblk -f
+   75  clear
+   76  df -h
+   77  ls -alth /dev/ > my-new-dev-nodes.txt
+   78  clear
+   79  ls
+   80  mv my-new-dev-nodes.txt  cit173_lab4/
+   81  clear
+   82  cd cit173_lab4/
+   83  clear
+   84  exit
+   85  sudo fdisk -l /dev/sdb
+   86  df -h
+   87  lsblk
+   88  sudo fdisk -l
+   89  df -H
+   90  df -T
+   91  clear
+   92  exit
+   93  exitg
+   94  clear
+   95  ls
+   96  cd cit173_lab4/
+   97  ls
+   98  clear
+   99  ssh pi@192.168.1.11
+  100  clear
+  101  which pgp
+  102  ls
+  103  which modprobe
+  104  modprobe nfs
+  105  sudo modprobe nfs
+  106  clear
+  107  ls
+  108  cat lsmod_modules_output 
+  109  clear
+  110  ls
+  111  diff my-modules-1.txt lsmod_modules_output 
+  112  clear
+  113  ls
+  114  fiel my-modules-1.txt 
+  115  file my-modules-1.txt 
+  116  lcear
+  117  ls -al
+  118  lsmod > my-modules-2_current.txt
+  119  sudo rmmod -r nfs
+  120  sudo rmmod nfs
+  121  lsmod > my-modules-3.txt
+  122  clear
+  123  df -h
+  124  clear
+  125  ls
+  126  df 
+  127  clear
+  128  fdisk -l
+  129  sudo fdisk -l
+  130  sudo fdisk /dev/sdb
+  131  clear
+  132  lsblk
+  133  clear
+  134  df -T
+  135  lsblk -o
+  136  clear
+  137  lsblk -o
+  138  lsblk -o bane
+  139  lsblk -o name
+  140  lsblk -o fstype
+  141  lsblk -o -a
+  142  lsblk -o 
+  143  clear
+  144  df -P | column -t
+  145  clear
+  146  ls
+  147  du
+  148  du -h
+  149  df -h
+  150  du -h /dev/sda
+  151  clear
+  152  cat /etc/fstab 
+  153  clear
+  154  lsblk -f
+  155  lsblk -o type
+  156  lsblk -o name,type
+  157  clear
+  158  ls
+  159  clear
+  160  mkfs 
+  161  df -h
+  162  clear
+  163  sudo fdisk -l
+  164  df -h
+  165  clear
+  166  ls
+  167  cd ..
+  168  ls
+  169  cp -r cit173_lab4/ lab4_backup
+  170  clear
+  171  ls
+  172  diff cit173_lab4/ lab4_backup/
+  173  clear
+  174  sudo dd if=/dev/sdb of=~/cit173_lab4/gpt.bin bs=512 count=34
+  175  clear
+  176  ls
+  177  cd cit173_lab4/
+  178  ls
+  179  file gpt.bin 
+  180  clear
+  181  ls
+  182  clear
+  183  cd ..
+  184  ls
+  185  cd cit173_lab4/
+  186  ls
+  187  cp gpt.bin ../lab4_backup/
+  188  clear
+  189  echo "# cit173_lab4; done" > README.md
+  190  git int
+  191  which git
+  192  git init
+  193  git add README.md 
+  194  git remote add origin https://github.com/Nuclearpr0/cit173_lab4.git
+  195  add -A
+  196  git add -A
+  197  ls
+  198  rm README.md 
+  199  git commit -m "Lab assignment 4"
+  200  git push origin master
+  201  clear
+  202  cd 
+  203  ls
+  204  mkdirs dabs
+  205  clear
+  206  ls
+  207  clear
+  208  ls
+  209  mkdir 5lab_cit173
+  210  if
+  211  id
+  212  df -h
+  213  clear
+  214  sudo fdisk -l
+  215  clear
+  216  mount -o uid=fakepro,gid=fakepro /dev/sdb1 /mnt/data/
+  217  sudo mount -o uid=fakepro,gid=fakepro /dev/sdb1 /mnt/data/
+  218  sudo mount -o uid=fakepro,gid=fakepro /dev/sdb2 /mnt/backup/
+  219  sudo mount -o uid=fakepro,gid=fakepro /dev/sdb2/ /mnt/backup/
+  220  clear
+  221  ls
+  222  cd /mnt/
+  223  ls
+  224  ls backup/
+  225  ls data/
+  226  sudo mount -t exf4 -o uid=fakepro,gid=fakepro /dev/sdb1 /mnt/data/
+  227  sudo mount -t ext4 -o uid=fakepro,gid=fakepro /dev/sdb1 /mnt/data/
+  228  mount /dev/sdb /mntd
+  229  sudo mount /dev/sdb /mnt/data/
+  230  sudo mount /dev/sdb1 /mnt/data/
+  231  sudo mount /dev/sdb2 /mnt/backup/
+  232  ls -alth data/
+  233  ls
+  234  cd backup/
+  235  ls
+  236  cd ..
+  237  ls
+  238  ls data/
+  239  ls
+  240  cd data/
+  241  ls
+  242  cd lost+found/
+  243  ls
+  244  ls a-l
+  245  ls -al
+  246  touch > test
+  247  touch test
+  248  cd ..
+  249  ls
+  250  umount /dev/sdb
+  251  umount /dev/sdb1
+  252  sduo umount /dev/sdb1
+  253  sudo umount /dev/sdb1
+  254  sudo umount /dev/sdb2
+  255  clear
+  256  sudo -t ext -o fakepro /dev/sdb1 /mnt/data/
+  257  sudo -t ext4 -o fakepro /dev/sdb1 /mnt/data/
+  258  sudo -t ext4 -o uid=fakepro,gid=fakepro /dev/sdb1 /mnt/data/
+  259  clear
+  260  sudo mount -t ext4 -o uid=fakepro,gid=fakepro /dev/sdb1 /mnt/data/
+  261  whcih mskf
+  262  mkfs
+  263  mkfs --help
+  264  mkfs -t /dev/sdb1
+  265  sudo mkfs -t /dev/sdb1
+  266  sudo mkfs -t /dev/sdb
+  267  sudo mkfs -t ext4 /dev/sdb1
+  268  sudo mkfs -t ext4 /dev/sdb2
+  269  ls
+  270  ls -alt
+  271  du
+  272  clear
+  273  du -l
+  274  clear
+  275  ls
+  276  cd /media/
+  277  ls
+  278  sudo mkdir data
+  279  sudo mkdir backup
+  280  sudo mount -t ext4 -o uid=fakepro,gid=fakepro /dev/sd1 /media/data/
+  281  sudo mount -t ext4 -o uid=fakepro,gid=fakepro /dev/sdb1 /media/data/
+  282  sudo mount -t ext4 /dev/sdb1 /mnt/data/
+  283  sudo mount /dev/sdb1
+  284  sudo umount /dev/sdb1
+  285  clear
+  286  sudo mount -t ext4 -o uid=fakepro,gid=fakepro /dev/sdb1 /mnt/s
+  287  sudo mount -t ext4 -o uid=fakepro,gid=fakepro /dev/sdb1 /mnt/data/
+  288  df -h
+  289  clear
+  290  sudo mount -o fakepro /dev/sdb1 /mnt/data/
+  291  mkfs.ext4 /mnt/data/
+  292  exit
+  293  mkfs -h
+  294  mkfs -t
+  295  cd
+  296  ls
+  297  cd /mnt
+  298  ls
+  299  mkdir data
+  300  sudo mkdir data
+  301  sudo mkdir backup
+  302  mount /dev/sdb1 /mnt/data/
+  303  sudo mount /dev/sdb1 /mnt/data/
+  304  sudo mount /dev/sdb2 /mnt/bacvk
+  305  sudo mount /dev/sdb2 /mnt/backup/
+  306  df- h
+  307  clear
+  308  df -h
+  309  df -h > ~/cit173_lab4/my-disk-usage.txt
+  310  umount /dev/sdb1
+  311  sudo umount /dev/sdb1
+  312  sudo umount /dev/sdb2
+  313  cd
+  314  exit
+  315  id
+  316  clear
+  317  ls
+  318  cd /mnt/
+  319  ls
+  320  cd data/
+  321  ls
+  322  ls -al
+  323  touch file
+  324  cd
+  325  d
+  326  id
+  327  ls
+  328  cd /m
+  329  ls
+  330  cd mn
+  331  ls
+  332  cd /mnt/
+  333  ls
+  334  sudo chown root:fakepro *
+  335  ls -al
+  336  ls
+  337  ls backup/
+  338  ls data/
+  339  ls data/clear
+  340  clear
+  341  fdisk -l
+  342  clear
+  343  df -T
+  344  df 
+  345  clear
+  346  lsblk -o name,type
+  347  sudo mount -o fakepro /dev/sdb1 /mnt/data/
+  348  mount -t nfs -o fakepro /dev/sdb1 /mnt/data/
+  349  sudo mount -t nfs -o fakepro /dev/sdb1 /mnt/data/
+  350  ls
+  351  ls data/
+  352  sudo mkfs.ext4 /dev/sdb1
+  353  clear
+  354  lkblk
+  355  lsblk
+  356  mount -t ext4 /dev/sdb1 /mnt/data/
+  357  sudo mount -t ext4 /dev/sdb1 /mnt/data/
+  358  cd data/
+  359  ls
+  360  cd ..
+  361  ls
+  362  ls -al
+  363  chown root:fakepro data/
+  364  sudo chown root:fakepro data/
+  365  cd data/
+  366  touch file
+  367  clear
+  368  ls
+  369  fsck /dev/sdb1
+  370  clear
+  371  sl
+  372  ls
+  373  sudo umount /dev/sdb1
+  374  cd
+  375  sudo umount /dev/sdb1
+  376  sudo umount /dev/sdb2
+  377  fsck /dev/sdb1
+  378  sudo fsck /dev/sdb1
+  379  clear
+  380  ls
+  381  fsck /dev/sdb2
+  382  sudo fsck /dev/sdb2
+  383  sudo mount -t ext4 -o umask=0022,uid=fakepro,gid=fakepro /dev/sdb1 /mnt/data/
+  384  sudo mount /dev/sd1 /mnt/data/
+  385  sudo mount.ext4 /dev/sd1 /mnt/data/
+  386  sudo mount /dev/sdb1 /mnt/data/
+  387  cd /mnt/
+  388  ls
+  389  ls -al
+  390  ls data/
+  391  ls -al data/
+  392  cd data/
+  393  touch test
+  394  cd
+  395  sudo umount /dev/sdb1
+  396  mount -o nobarrier /dev/sdb1 /mnt/data/
+  397  sudomount -o nobarrier /dev/sdb1 /mnt/data/
+  398  sudo mount -o nobarrier /dev/sdb1 /mnt/data/
+  399  cd mn
+  400  cd /mnt/
+  401  ls
+  402  ls -al data/
+  403  cd
+  404  cd mn
+  405  cd /mnt/
+  406  clear
+  407  umount /dev/sdb1
+  408  sudo umount /dev/sdb1
+  409  mount -a -t ext4 -o uid=fakepro,gid=fakepro /dev/sdb1 /mnt/data/
+  410  sudo mount -a -t ext4 -o uid=fakepro,gid=fakepro /dev/sdb1 /mnt/data/
+  411  ls -al data/
+  412  cd data/
+  413  ls
+  414  touch wtf
+  415  cd ..
+  416  ls
+  417  ls -al data/
+  418  ls -al
+  419  umount /dev/sdb1
+  420  sudo mount -a -t ext4 -o uid=fakepro,gid=fakepro /dev/sdb1 /mnt/data/
+  421  ls -al
+  422  umount /dev/sdb1
+  423  sudo umount /dev/sdb1
+  424  sudo mount -a -o uid=fakepro,gid=fakepro /dev/sdb1 /mnt/data/
+  425  ls data/
+  426  ls
+  427  umount /dev/sdb1`
+  428  umount /dev/sdb1
+  429  clear
+  430  cd
+  431  sudo blkdi
+  432  sudo blkid
+  433  sudo yum install nano
+  434  sudo yum install nano -y
+  435  exit
+  436  cd /etc
+  437  ls
+  438  sudo cp fstab  fstab.bak
+  439  sudo nno fstab
+  440  sudo nano fstab
+  441  which nano0
+  442  clear
+  443  ls
+  444  exit
+  445  sudo nano /etc/fstab
+  446  clear
+  447  sudo mount -a
+  448  cd /mnt/
+  449  ls
+  450  ls data/
+  451  cd ..
+  452  ls
+  453  cd /mnt/
+  454  ls
+  455  ls -al
+  456  cd data/
+  457  ls
+  458  touch fuck
+  459  sudo touch why
+  460  ls -al
+  461  cd
+  462  cd /etc/
+  463  sudo nano fstab
+  464  sudo mount -a
+  465  clear
+  466  exit
+  467  clear
+  468  sl
+  469  clear
+  470  xset
+  471  xset led 3
+  472  xset -led 3
+  473  xset led 3
+  474  xset -led 3
+  475  Xset -led on
+  476  xset led on
+  477  xset led off
+  478  man xset
+  479  clear
+  480  cat /sys/class/leds/input2\:\:capslock/
+  481  cat /sys/class/leds/input2\:\:capslock/brightness 
+  482  echo 1 > /sys/class/leds/input2\:\:capslock/brightness 
+  483  sudo echo 1 > /sys/class/leds/input2\:\:capslock/brightness 
+  484  sudo echo 
+  485  clear
+  486  cat /sys/class/leds/input2\:\:capslock/brightness 
+  487  sudo echo 1 > /sys/class/leds/input2\:\:capslock/brightness 
+  488  echo 1 | sudo tee /sys/class/leds/input2\:\:capslock/brightness '
+  489  echo 1 | sudo tee '/sys/class/leds/input2\:\:capslock/brightness '
+  490  clear
+  491  cat /sys/class/leds/input2\:\:capslock/brightness 
+  492  echo 0 | tee "/sys/class/leds/input2\:\:capslock/brightness"
+  493  cd /sys/
+  494  ls
+  495  cd class/
+  496  ls
+  497  cd leds/
+  498  ls
+  499  cd input2\:\:capslock/
+  500  ls
+  501  cat brightness 
+  502  echo 1 | sudo tee brightness 
+  503  echo 0 | sudo tee brightness 
+  504  pwd
+  505  clear
+  506  ls
+  507  cd
+  508  ls
+  509  cd 5lab_cit173/
+  510  ls
+  511  ?wf
+  512  clear
+  513  exit
+  514  cd mn
+  515  ls
+  516  cd /mnt/
+  517  ls
+  518  cd data/
+  519  ls
+  520  ls -l data_file1.dat 
+  521  cat data_file1.dat 
+  522  ls
+  523  rm data_file1.dat ls
+  524  ls
+  525  ls -al
+  526  ls
+  527  file data_file1.dat 
+  528  ls -l data_file1.dat 
+  529  ls -lh data_file1.dat 
+  530  clear
+  531  ls -lh data_file1.dat 
+  532  ls -l data_file1.dat 
+  533  ls
+  534  'rm d
+  535  rm data_file1.dat 
+  536  clear
+  537  ls
+  538  ls -l data_file1.dat 
+  539  cd ..
+  540  ls
+  541  ls data/
+  542  ls backup/
+  543  clear
+  544  cd  /mnt/
+  545  ls
+  546  cd backup/
+  547  ls
+  548  mv backup_file* ~/5lab_cit173/
+  549  mv ../data/data_file* ~/5lab_cit173/
+  550  clear
+  551  sl
+  552  clear
+  553  df -hT
+  554  df -hT > my-disk-usage_more_diff.txt
+  555  clear
+  556  cat /proc/version 
+  557  cat /proc/cpuinfo 
+  558  cat /proc/cpuinfo |less
+  559  cat /proc/meminfo 
+  560  clear
+  561  wht
+  562  clear
+  563  cd
+  564  ls
+  565  cat /proc
+  566  cd /proc/
+  567  ls
+  568  clear
+  569  ps
+  570  clear
+  571  top
+  572  clear
+  573  top
+  574  clear
+  575  uptime
+  576  ls
+  577  clear
+  578  man up
+  579  man uptime
+  580  man uptime 15
+  581  uptime -p
+  582  python
+  583  python3
+  584  uptime -p
+  585  uptime 
+  586  iostat
+  587  which sar
+  588  clear
+  589  cat /proc/stat
+  590  cat /proc/stat|less
+  591  clear
+  592  sudo yum install sar -y
+  593  clear
+  594  cat /proc/loadavg 
+  595  ls | less
+  596  lcear
+  597  ps | grep dbus
+  598  which dbus-daemon
+  599  ps aux | grep dbus
+  600  claer
+  601  ls
+  602  cat /proc/consoles 
+  603  clear
+  604  ls | grep sysfs
+  605  find / | grep sysfs
+  606  sudo find / | grep sysfs
+  607  clear
+  608  ls
+  609  cd tty/
+  610  ls
+  611  cd ..
+  612  ls
+  613  sysfs
+  614  modprobe -a
+  615  modprobe -a sysfs
+  616  clear
+  617  xset
+  618  clear
+  619  ls
+  620  xit
+  621  exit
+  622  echo 1 | sudo tee /sys/class/leds/input2\:\:capslock/brightness 
+  623  exit
+  624  ssh pi@192.168.1.11
+  625  clear
+  626  ls
+  627  exit
+  628  whcih monoprobe
+  629  which monoprobe
+  630  clera
+  631  clear
+  632  sudo gdisk /dev/sdb
+  633  sudo fdisk -l
+  634  df -h
+  635  clear
+  636  ls -alth /dev/ > cit173_lab4/my-new-dev-nodes.txt 
+  637  clear
+  638  cd cit173_lab4/
+  639  ls
+  640  clear
+  641  mkfs.ext3 /dev/sdb1
+  642  mkfs.ext4 /dev/sdb1
+  643  sudo mkfs.ext4 /dev/sdb1
+  644  sudo mkfs.ext4 /dev/sdb2
+  645  clear
+  646  ls
+  647  clear
+  648  ls
+  649  clear
+  650  cd
+  651  ls
+  652  clear
+  653  sudo blid
+  654  clear
+  655  sudo blkid
+  656  cd /mnt/
+  657  ls
+  658  sudo chown root:fakepro /dev/sdb1
+  659  sudo chown root:fakepro /dev/sdb2
+  660  ls
+  661  cd data/
+  662  ls
+  663  ls -al
+  664  touch wtf
+  665  clear
+  666  cd ..
+  667  ls
+  668  cd ..
+  669  sl
+  670  cd
+  671  cd mn
+  672  ls
+  673  cd /mnt/
+  674  ls
+  675  ls -al
+  676  chmod 775 /dev/sdb1
+  677  sudo chmod 775 /dev/sdb1
+  678  sudo chmod 775 /dev/sdb2
+  679  mount -a
+  680  sudo mount -a
+  681  ls
+  682  ls -al
+  683  cd data/
+  684  ls
+  685  rm why 
+  686  ls -al
+  687  claer
+  688  clear
+  689  ls
+  690  sudo rm
+  691  sudo rm why 
+  692  clear
+  693  cd ..
+  694  ls
+  695  ls -al
+  696  chmod 775 *
+  697  sudo chmod 775 *
+  698  ls
+  699  ls -al
+  700  sudo chown root:fakepro backup/
+  701  cd data/
+  702  ls
+  703  echo "" > file
+  704  touch data
+  705  ls
+  706  rm data 
+  707  clear
+  708  ls
+  709  rm file
+  710  clear
+  711  cat /etc/fstab
+  712  clear
+  713  df -T
+  714  cd 5
+  715  cd
+  716  ls
+  717  cd 5lab_cit173/
+  718  clear
+  719  df -T my-mounts.txt
+  720  df -T > my-mounts.txt
+  721  ls
+  722  cat /etc/fstab > my-fstab.txt
+  723  ls
+  724  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=1 
+  725  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1 count=1000 
+  726  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=1000 
+  727  dd if=/dev/random of=/mnt/data/data_file1.dat bs=10 count=1000 
+  728  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=1 
+  729  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=10 
+  730  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=100 
+  731  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=75 
+  732  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=60 
+  733  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=50 
+  734  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1000 count=1 
+  735  dd if=/dev/random of=/mnt/data/data_file1.dat bs=10000 count=1 
+  736  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1000 count=1 
+  737  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=1 
+  738  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1024 count=1 
+  739  dd if=/dev/random of=/mnt/data/data_file1.dat bs=8 count=1000 
+  740  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1024 count=1 
+  741  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1kB
+  742  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB
+  743  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=1
+  744  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=2
+  745  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=5
+  746  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=10
+  747  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=11
+  748  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1000 count=1
+  749  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1k count=2
+  750  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1k count=4
+  751  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1k count=45
+  752  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1k count=13
+  753  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1k count=14
+  754  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=16
+  755  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=15
+  756  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=16
+  757  dd if=/dev/random of=/mnt/data/data_file2.dat bs=1KB count=16
+  758  dd if=/dev/random of=/mnt/backup/backup_file2.dat bs=1KB count=16
+  759  dd if=/dev/random of=/mnt/backup/backup_file1.dat bs=1KB count=16
+  760  pwd
+  761  ls
+  762  clear
+  763  ls
+  764  clear
+  765  ls
+  766  nano my-procfs.txt
+  767  ps aux | bash
+  768  sudo ps aux | bash
+  769  sudo ps aux | grep bash
+  770  nano my-procfs.txt
+  771  clear
+  772  sl
+  773  clear
+  774  ls
+  775  nano my-procfs.txt 
+  776  clear
+  777  sysfs
+  778  which sysfs
+  779  clear
+  780  ls
+  781  echo "echo 1 | sudo tee /sys/class/leds/input2\:\:capslock/brightness" > turn-on-capslock-led.txt
+  782  nano turn-on-capslock-led.txt 
+  783  clear
+  784  ls
+  785  history > my-command-history.txt
+  786  ls
+  787  cd ..
+  788  cp -r 5lab_cit173/ cit173_lab5
+  789  wc -l cit173_lab
+  790  ls cit173_lab
+  791  ls
+  792  cd cit173_lab
+  793  cd cit173_lab5
+  794  ls
+  795  ls -al
+  796  du
+  797  du -l
+  798  du -a
+  799  clear
+  800  ls
+  801  ls | wc -l
+  802  clear
+  803  ls
+  804  ls | sort
+  805  df -hT
+  806  clear
+  807  ls
+  808  df -hT > my-disk-usage.txt
+  809  ls
+  810  clear
+  811  git init
+  812  git remote add origin https://github.com/Nuclearpr0/cit173_lab5.git
+  813  git add -A
+  814  git commit -m Lab assignment 5"
+  815  git commit -m "Lab assignment 5"
+  816  git push origin master
+  817  clear
+  818  exit
+  819  which fdisk
+  820  which gdiks
+  821  which gdisk
+  822  tmux new -s fucker
+  823  tmux attach -t fucker
+  824  clear
+  825  sudo shutdown now -r
+  826  which wtf
+  827  clear
+  828  ifconfig
+  829  sudo service sshd start
+  830  fdisk /dev/sda
+  831  sudo fdisk /dev/sda
+  832  ld
+  833  ls
+  834  file GCFIi-datacarve-FAT.dd 
+  835  df -h
+  836  man type
+  837  type -l
+  838  tying -l
+  839  type -t
+  840  type -t /dev/sdc
+  841  clear
+  842  fdisk /dev/sdc
+  843  sudo fdisk /dev/sdc
+  844  clear
+  845  sudo fdisk /dev/sda
+  846  exit
+  847  sudo fidsk -l
+  848  toor
+  849  sudo fidsk -l
+  850  sudo fdisk -l
+  851  type -t /dev/sda1
+  852  sudo fdisk /dev/sda
+  853  clear
+  854  exit
+  855  file GCFIi-datacarve-FAT.dd 
+  856  clear
+  857  ls
+  858  cat project3-1 
+  859  ifconfig
+  860  clear
+  861  sudo service sshd start
+  862  exit
+  863  clear
+  864  ls
+  865  cat project3-1 
+  866  exit
+  867  less project3-1 
+  868  clear
+  869  less project3-1 
+  870  clear
+  871  df -h
+  872  sudo fdisk -l 
+  873  clear
+  874  sudo fdisk -l 
+  875  exit
+  876  clear
+  877  tmux attach -t Project3-1
+  878  exit
+  879  mkfs.msdos -vF32 /dev/sda1
+  880  fdisk -l | grep /dev/sda1
+  881  sudo fdisk -l | grep /dev/sda1
+  882  clear
+  883  sudo fdisk -l | grep /dev/sda1
+  884  clear
+  885  ls
+  886  clear
+  887  df -T
+  888  df -H
+  889  clear
+  890  sudo fdisk -l
+  891  clear
+  892  sudo fdisk -l
+  893  df -h
+  894  clear
+  895  df -h
+  896  exit
+  897  tmux attach -t testr
+  898  tmux list-sessions
+  899  cd home
+  900  ls
+  901  tmux new -s fuckingkillme
+  902  exit
+  903  tmux list-sessions
+  904  ls
+  905  sudo passwd test
+  906  id test
+  907  usermod -l
+  908  clear
+  909  ls
+  910  man adduser
+  911  sudo adduser -s /bin/rbash hello
+  912  su hello
+  913  passwd hello
+  914  hell
+  915  sudo passwd hello
+  916  su hello 
+  917  sudo su
+  918  chsh -s /bin/sh test
+  919  sudo chsh -s /bin/sh test
+  920  sudo chsh -s /bin/bash test
+  921  sudo init 0
+  922  ls
+  923  sudo userdel -r hello
+  924  clear
+  925  which chsh
+  926  man chsh
+  927  sudo yum install chsh
+  928  chsh /bin/rbash test
+  929  chsh
+  930  chsh -s /bin/rbash test
+  931  sudo chsh -s /bin/rbash test
+  932  cd /bin
+  933  ls
+  934  ls | grep rbash
+  935  cd
+  936  ls | grep sh
+  937  clear
+  938  ls
+  939  su tset
+  940  su test
+  941  sudo su
+  942  ls
+  943  rmdir manjaro/
+  944  xit
+  945  exit
+  946  sudo mount /dev/sdd /mnt/
+  947  sudo mount /dev/sdd /mnt
+  948  sudo cd /mnt
+  949  ls
+  950  sudo mkdir manjaro
+  951  sudo mount /dev/sdd manjaro/
+  952  cd
+  953  sudo mount /dev/sdd manjaro/
+  954  sudo mount /dev/sdd/ manjaro/
+  955  ls
+  956  cd /mnt/
+  957  ls
+  958  mkdir manjaro
+  959  sudo 1!
+  960  sudo mkdir manjaro
+  961  clear
+  962  ls
+  963  sudo mount /dev/sdd manjaro/
+  964  sudo mount /dev/sdd manjaro/ -f
+  965  cd manjaro/
+  966  ls
+  967  ls -al
+  968  fuck
+  969  sudo mount /dev/sdd1 manjaro/
+  970  sudo mount /dev/sdd1 /mnt/manjaro/
+  971  cd /man
+  972  pwd
+  973  ls
+  974  ls- al
+  975  ls -al
+  976  df -h
+  977  reset
+  978  ls
+  979  exit
+  980  cd /mnt/
+  981  ls
+  982  cd manjaro/
+  983  ls
+  984  systemctl enable ssh
+  985  sudo systemctl enable ssh
+  986  ifocnifg
+  987  ifconfig
+  988  clear
+  989  cd
+  990  ls
+  991  cd cit173_lab6
+  992  clear
+  993  ls
+  994  sudo cp /etc/group .
+  995  fuck
+  996  history > ex1-command-history.txt
